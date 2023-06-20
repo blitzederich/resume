@@ -1,0 +1,19 @@
+{
+  "name": "alexander-samorodov-resume",
+  "version": "1.0.0",
+  "homepage": "https://blitzederich.github.io/resume",
+  "description": "Alexander Samorodov resume",
+  "keywords": [],
+  "scripts": {
+    "predeploy": "npm run lint-css",
+    "deploy": "gh-pages -d .",
+    "lint-css": "stylelint --fix css/*.css"
+  },
+  "author": "Alexander Samorodov <blitzederich@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "stylelint": "^15.8.0",
+    "stylelint-order": "^6.0.3"
+  }
+}
