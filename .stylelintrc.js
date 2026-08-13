@@ -1,4 +1,4 @@
-// Copyright 2023 Alexander Samorodov <blitzerich@gmail.com>
+// Copyright 2023 Alexander Samorodov <blitzederich@gmail.com>
 
 module.exports = {
 	'plugins': [
